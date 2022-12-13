@@ -10,3 +10,9 @@ def swap(a, b):
     a = b
     b = temp
     return a, b
+    
+def unswap(a, b):
+    temp = a
+    a = b
+    b = temp
+    return a, b
