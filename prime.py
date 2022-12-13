@@ -17,3 +17,11 @@ def oddIndices(a):
         if prime(i) == True:
             sum += a[i]
     return sum
+    
+def fib(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fib(n) + fib(n - 1)
