@@ -17,7 +17,7 @@ def oddIndices(a):
         if prime(i) == True:
             sum += a[i]
     return sum
-    
+
 def fib(n):
     if n == 0:
         return 0
@@ -25,3 +25,11 @@ def fib(n):
         return 1
     else:
         return fib(n) + fib(n - 1)
+
+def steph_or_lebron(a):
+    if a == 23:
+        return 'LeBron'
+    elif a == 30:
+        return 'Steph'
+    else:
+        return 'neither'
